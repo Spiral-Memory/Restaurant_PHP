@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url(../images/main/cart-back.jpg) ;
+    background-size: cover;
+}
+
+.cart-img{
+    display: block;
+    height: 180px;
+    margin: auto;
+}
+
+.empty-cart{
+   padding: 20px;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%,-50%);
+     position: absolute;
+}
+
+.cart-text{
+
+   
+    color: white;
+    font-size: 35px;
+
+}

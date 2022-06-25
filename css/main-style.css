@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    overflow-x: hidden;
+    font-family: 'Georama', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header{
+    z-index: 0;
+    position: relative;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.342)), url(../images/main/background.jpg);
+    background-size: cover;
+}
+
+
+.logo{
+    z-index: -1;
+    position: absolute;
+    top: 61px;
+    left: 0;
+    
+}
+
+.logo-img{
+    width: 130px;
+    
+  
+}
+
+.text-box{
+    font-family: 'Georama', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.text-box h1{
+    text-align: center;
+}
+
+.welcome{
+font-size: 64px;
+}
+
+.comp-name{
+    display: block;
+    margin-bottom: 40px;
+}
+
+
+.btn:link, .btn:visited, input[type="submit"] {
+
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link, .btn-full:visited, input[type="submit"] {
+
+    background-color: #af9150;
+    border: 1px solid #af9150;
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+}
+
+.btn-ghost:link, .btn-ghost:visited {
+
+    border: 1px solid #ccb688;
+    color: white;
+}
+
+.btn:hover, .btn:active, input[type="submit"]:hover, input[type="submit"]:active {
+
+    background-color: #ccb688;
+}
+
+.btn-full:hover, .btn-full:active {
+
+    background-color: #ccb688;
+    border: 1px solid #e9c881;
+}
+
+.btn-ghost:hover, .btn-ghost:active {
+
+    color: #fff;
+}

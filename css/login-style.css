@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)), url(../images/main/login_signup.jpg) ;
+    background-size: cover;
+}
+
+.signup-sec{
+    color: white;
+    margin: 60px auto;
+    width: 42%;
+   
+}
+.buttons{
+    margin-top: 26px;
+}
+.btn-login{
+    display: inline-block;
+    margin-right: 26px;
+}
